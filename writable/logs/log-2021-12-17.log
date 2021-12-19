@@ -1,0 +1,371 @@
+CRITICAL - 2021-12-17 00:56:18 --> Undefined index: table
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_select2()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-17 01:14:23 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 01:14:23 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(12): App\Models\MLayer->getLayers()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 01:14:39 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 01:14:39 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(12): App\Models\MLayer->getLayers()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 01:21:07 --> Column 'created_time' in order clause is ambiguous
+CRITICAL - 2021-12-17 01:21:07 --> Column 'created_time' in order clause is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(12): App\Models\MLayer->getLayers()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 01:21:35 --> Column 'created_time' in order clause is ambiguous
+CRITICAL - 2021-12-17 01:21:35 --> Column 'created_time' in order clause is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(12): App\Models\MLayer->getLayers()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 07:47:30 --> Column 'properties_id' in where clause is ambiguous
+CRITICAL - 2021-12-17 07:47:30 --> Column 'properties_id' in where clause is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(171): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 07:47:30 --> Column 'properties_id' in where clause is ambiguous
+CRITICAL - 2021-12-17 07:47:30 --> Column 'properties_id' in where clause is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(171): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 07:56:35 --> Unknown column 'geojson_id' in 'field list'
+CRITICAL - 2021-12-17 07:56:35 --> Unknown column 'geojson_id' in 'field list'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(183): App\Models\MLayer->getPropertiesSubForm()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_sub_form()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 07:57:06 --> Table 'gis_project.desa_kelurahan' doesn't exist
+CRITICAL - 2021-12-17 07:57:06 --> Table 'gis_project.desa_kelurahan' doesn't exist
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\SelectBuilder.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Views\administrator\properties\properties_sub_form.php(12): App\Libraries\SelectBuilder->__construct()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\OpenServer\\d...')
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#9 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(184): view()
+#10 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_sub_form()
+#11 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-17 08:50:00 --> Array to string conversion
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(21): App\Controllers\Utils->get_labels()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-17 10:30:09 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 10:30:09 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(228): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 10:30:09 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 10:30:09 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(228): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 10:30:26 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 10:30:26 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(228): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 10:30:26 --> Column 'color_type_id' in field list is ambiguous
+CRITICAL - 2021-12-17 10:30:26 --> Column 'color_type_id' in field list is ambiguous
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(228): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 10:42:25 --> Undefined index: properties_id
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 10:42:25 --> Undefined index: properties_id
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_fetch()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-17 17:42:49 --> Unknown column 'ct.color_id' in 'on clause'
+CRITICAL - 2021-12-17 17:42:49 --> Unknown column 'ct.color_id' in 'on clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(283): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 17:42:49 --> Unknown column 'ct.color_id' in 'on clause'
+CRITICAL - 2021-12-17 17:42:49 --> Unknown column 'ct.color_id' in 'on clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(283): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 17:43:04 --> Unknown column 'ct.color_id' in 'on clause'
+CRITICAL - 2021-12-17 17:43:04 --> Unknown column 'ct.color_id' in 'on clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(283): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 17:43:04 --> Unknown column 'ct.color_id' in 'on clause'
+CRITICAL - 2021-12-17 17:43:04 --> Unknown column 'ct.color_id' in 'on clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(283): App\Libraries\Datatables->get()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_fetch()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 18:03:59 --> You must set the database table to be used with your query.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(296): CodeIgniter\Model->__call()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_form()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-17 18:06:04 --> Table 'gis_project.color_sub' doesn't exist
+CRITICAL - 2021-12-17 18:06:04 --> Table 'gis_project.color_sub' doesn't exist
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(296): App\Models\MLayer->getColorSubForm()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_form()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 18:06:28 --> Unknown column 'color_fill_legend' in 'field list'
+CRITICAL - 2021-12-17 18:06:28 --> Unknown column 'color_fill_legend' in 'field list'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(296): App\Models\MLayer->getColorSubForm()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_form()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 18:39:15 --> syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\BaseController.php(65): spl_autoload_call()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-17 18:54:04 --> Trying to access array offset on value of type null
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_form()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 18:55:30 --> Trying to access array offset on value of type null
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_form()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 19:01:06 --> Undefined index: color_fill_id
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(217): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(305): App\Models\MLayer->colorSubSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->color_sub_save()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-17 22:39:56 --> Unknown column 'c.color_legend' in 'order clause'
+CRITICAL - 2021-12-17 22:39:56 --> Unknown column 'c.color_legend' in 'order clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#6 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#7 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#9 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-17 22:48:27 --> Unknown column 'c.color_legend' in 'order clause'
+CRITICAL - 2021-12-17 22:48:27 --> Unknown column 'c.color_legend' in 'order clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#6 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#7 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#9 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-17 22:49:28 --> Trying to access array offset on value of type null
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-17 22:51:17 --> Trying to access array offset on value of type null
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-17 23:18:15 --> Unknown column 'properties_sub_id' in 'where clause'
+CRITICAL - 2021-12-17 23:18:15 --> Unknown column 'properties_sub_id' in 'where clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(153): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(202): App\Models\MLayer->propertiesSubDel()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_sub_del()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

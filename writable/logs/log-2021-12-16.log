@@ -1,0 +1,7 @@
+CRITICAL - 2021-12-16 21:26:41 --> Attempt to modify property 'properties' of non-object
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

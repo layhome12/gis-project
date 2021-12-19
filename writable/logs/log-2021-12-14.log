@@ -1,0 +1,23 @@
+CRITICAL - 2021-12-14 07:08:29 --> file_get_contents(http://gis-project/trunk/public/assets_geojson/kecamatan_blitar.geojson): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Landing.php(12): file_get_contents()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Landing->index()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 08:50:24 --> Trying to get property 'properties' of non-object
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Landing.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Landing->test()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 08:51:31 --> Trying to get property 'type' of non-object
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Landing.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Landing->test()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

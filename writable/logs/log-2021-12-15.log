@@ -1,0 +1,90 @@
+ERROR - 2021-12-15 07:26:45 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-15 07:26:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(34): App\Libraries\Datatables->get()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer_fetch()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-15 07:26:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-15 07:26:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Libraries\Datatables.php(196): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(34): App\Libraries\Datatables->get()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer_fetch()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-15 08:20:05 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2021-12-15 08:20:05 --> Unknown column 'status' in 'where clause'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Libraries\SelectBuilder.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Views\administrator\layer\layer_form.php(13): App\Libraries\SelectBuilder->__construct()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\OpenServer\\d...')
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#9 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(47): view()
+#10 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer_form()
+#11 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-15 08:58:24 --> Undefined index: geojson_id
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MLayer.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(62): App\Models\MLayer->layerSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer_save()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 09:15:01 --> Undefined index: geojson_nama
+#0 E:\OpenServer\domains\gis-project\trunk\app\Views\administrator\layer\layer_form.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(47): view()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer_form()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 09:48:15 --> You must set the database table to be used with your query.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(12): CodeIgniter\Model->__call()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 09:53:50 --> file_get_contents(http://gis-project/trunk/public/assets_geojson/kel_kota_blitar.geojson): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Landing.php(12): file_get_contents()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Landing->index()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 10:12:15 --> Undefined variable: sidebar_active
+#0 E:\OpenServer\domains\gis-project\trunk\app\Views\template\administrator.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(17): view()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->layer()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

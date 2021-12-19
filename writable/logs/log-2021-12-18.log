@@ -1,0 +1,207 @@
+CRITICAL - 2021-12-18 00:21:54 --> Class 'color_fill_hexa' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-18 00:35:09 --> Undefined variable: color
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-18 00:39:53 --> Undefined variable: color
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(85): App\Models\MUtils->colorSet()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(79): App\Models\MUtils->getColors()
+#3 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Utils.php(22): App\Controllers\Utils->get_colors()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Utils->get_layers()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-18 06:21:03 --> Too few arguments to function App\Models\MUser::userSave(), 0 passed in E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php on line 405 and exactly 1 expected
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(405): App\Models\MUser->userSave()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_save()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-18 06:26:46 --> Unknown column 'user_file' in 'field list'
+CRITICAL - 2021-12-18 06:26:47 --> Unknown column 'user_file' in 'field list'
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\BaseController.php(87): App\Models\MUtils->getData()
+#6 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(412): App\Controllers\BaseController->delFile()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_del()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-18 06:30:08 --> unlink(E:\OpenServer\domains\gis-project\trunk\public\user_img\1639830373_8ea62b1c14f181b9f807.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\BaseController.php(90): unlink()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(412): App\Controllers\BaseController->delFile()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_del()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 06:30:59 --> You must set the database table to be used with your query.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(413): CodeIgniter\Model->__call()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_del()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 06:31:31 --> unlink(E:\OpenServer\domains\gis-project\trunk\public\users_img\1639830373_8ea62b1c14f181b9f807.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\BaseController.php(90): unlink()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(412): App\Controllers\BaseController->delFile()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_del()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 06:32:22 --> unlink(E:\OpenServer\domains\gis-project\trunk\public\users_img\1639830373_8ea62b1c14f181b9f807.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\BaseController.php(90): unlink()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(412): App\Controllers\BaseController->delFile()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->manajemen_user_del()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 08:34:06 --> Undefined index: password
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-18 09:03:22 --> Table 'gis_project.layer' doesn't exist
+CRITICAL - 2021-12-18 09:03:22 --> Table 'gis_project.layer' doesn't exist
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(144): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(16): App\Models\MUtils->getCards()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->index()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-18 19:43:53 --> File "http://192.168.0.2/trunk/public/assets_exel/temp_exel.xlsx" does not exist.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(440): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:02:16 --> You must set the database table to be used with your query.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): CodeIgniter\Model->__call()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 20:13:32 --> Undefined index: lcode
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(151): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): App\Models\MUtils->exelSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:13:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getRowArray() must be of the type int, string given, called in E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php on line 157
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(157): CodeIgniter\Database\BaseResult->getRowArray()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): App\Models\MUtils->exelSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:14:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php on line 156
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(156): CodeIgniter\Database\BaseBuilder->get()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): App\Models\MUtils->exelSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:17:52 --> Trying to access array offset on value of type null
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(157): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): App\Models\MUtils->exelSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:19:40 --> Undefined index: lcode
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(162): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): App\Models\MUtils->exelSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 20:27:18 --> File "" does not exist.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(455): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->import_exel()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 21:37:38 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(147): App\Controllers\Administrator->template_exel()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_temp()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-18 21:37:40 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(147): App\Controllers\Administrator->template_exel()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->properties_temp()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-18 23:29:00 --> You must set the database table to be used with your query.
+#0 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(477): CodeIgniter\Model->__call()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->info_landing_form()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 23:29:47 --> Undefined index: info_landing_id
+#0 E:\OpenServer\domains\gis-project\trunk\app\Models\MUtils.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Administrator.php(483): App\Models\MUtils->infoLandingSave()
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Administrator->info_landing_save()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 23:55:01 --> Undefined variable: info
+#0 E:\OpenServer\domains\gis-project\trunk\app\Views\landing\home.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 E:\OpenServer\domains\gis-project\trunk\app\Controllers\Landing.php(12): view()
+#5 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Landing->index()
+#6 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 E:\OpenServer\domains\gis-project\trunk\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 E:\OpenServer\domains\gis-project\trunk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
