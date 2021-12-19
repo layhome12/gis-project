@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "rumah_sakit_kota_blitar",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAMOBJ": null, "FCODE": null, "LCODE": null, "REMARK": "Rumah Sakit Khusus", "METADATA": null, "SRS_ID": null, "TIPRST": 0, "JPLYRS": 2, "ALAMAT": null }, "geometry": { "type": "Point", "coordinates": [ 112.172611969000059, -8.07733404399994, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": null, "FCODE": null, "LCODE": null, "REMARK": "Rumah Sakit Khusus", "METADATA": null, "SRS_ID": null, "TIPRST": 0, "JPLYRS": 2, "ALAMAT": null }, "geometry": { "type": "Point", "coordinates": [ 112.178406700000096, -8.097346490999939, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": null, "FCODE": null, "LCODE": null, "REMARK": "Rumah Sakit Khusus", "METADATA": null, "SRS_ID": null, "TIPRST": 0, "JPLYRS": 2, "ALAMAT": null }, "geometry": { "type": "Point", "coordinates": [ 112.147652232000041, -8.099674272999948, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": null, "FCODE": null, "LCODE": null, "REMARK": "Rumah Sakit Khusus", "METADATA": null, "SRS_ID": null, "TIPRST": 0, "JPLYRS": 2, "ALAMAT": null }, "geometry": { "type": "Point", "coordinates": [ 112.168134296000062, -8.100652733999937, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": null, "FCODE": null, "LCODE": null, "REMARK": "Rumah Sakit Khusus", "METADATA": null, "SRS_ID": null, "TIPRST": 0, "JPLYRS": 2, "ALAMAT": null }, "geometry": { "type": "Point", "coordinates": [ 112.157876580000107, -8.107895159999941, 0.0 ] } }
+]
+}
