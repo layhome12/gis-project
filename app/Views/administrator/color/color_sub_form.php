@@ -17,8 +17,8 @@
     <div class="col-md-12">
         <div class="form-group square">
             <label>Color Fill</label>
-            <input type="hidden"name="color_id" value="<?= $color_id ?>">
-            <input type="hidden"name="color_fill_id" value="<?= isset($color['color_fill_id']) ? $color['color_fill_id'] : '' ?>">
+            <input type="hidden" name="color_id" value="<?= $color_id ?>">
+            <input type="hidden" name="color_fill_id" value="<?= isset($color['color_fill_id']) ? $color['color_fill_id'] : '' ?>">
             <input type="text" class="form-control coloris" style="width: 100%;" name="color_fill_hexa" value="<?= isset($color['color_fill_hexa']) ? $color['color_fill_hexa'] : '' ?>" required>
         </div>
     </div>
